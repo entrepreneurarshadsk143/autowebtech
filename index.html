@@ -3,58 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoWebTech | Website & Automation Solutions</title>
+    <title>AutoWebTech - Web Development and Automation</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="hero">
-    <div class="container">
-        <h1>AutoWebTech</h1>
-        <p>Smart Websites & Business Automation</p>
-        <a href="#contact" class="btn">Get in Touch</a>
-    </div>
-</header>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to AutoWebTech</h1>
+            <p>Your trusted partner for innovative website development and business automation solutions.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </header>
 
-<nav>
-    <div class="container">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At AutoWebTech, we specialize in creating high-quality, responsive websites and automating business processes to help your business run more efficiently. Whether you're a startup or an established business, we have the expertise to bring your ideas to life and help you achieve your business goals. We focus on user-centric design and seamless functionality to ensure your website stands out and works effortlessly across all devices.</p>
+            <p>Our team is passionate about using the latest technologies and tools to build websites that are not only visually appealing but also provide real value to users. We also offer automation services to streamline your daily tasks, allowing you to focus on what matters most to your business.</p>
+        </div>
+    </section>
 
-<section id="home" class="container">
-    <h2>Welcome to AutoWebTech</h2>
-    <p>We help businesses grow with modern websites and automation workflows tailored for success.</p>
-</section>
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Website Development</h3>
+                <p>We design and develop beautiful, responsive websites that meet the unique needs of your business. Our websites are built to be user-friendly, mobile-optimized, and fast-loading. From landing pages to full-fledged e-commerce sites, we ensure that your website performs seamlessly and drives business growth.</p>
+                <ul>
+                    <li>Custom Web Design</li>
+                    <li>Responsive & Mobile-Friendly</li>
+                    <li>SEO Optimized for Better Rankings</li>
+                    <li>Speed & Performance Optimization</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Business Automation</h3>
+                <p>We help automate your business processes to save you time and money. Our automation tools help streamline tasks such as scheduling, customer communications, data entry, and marketing campaigns. With the right automation, you can improve efficiency and focus on growing your business.</p>
+                <ul>
+                    <li>Email Campaign Automation</li>
+                    <li>Workflow Automation</li>
+                    <li>CRM Integration</li>
+                    <li>Custom Automation Tools</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Consultation & Support</h3>
+                <p>We offer consultation services to guide you through the process of website development and business automation. Our experts will analyze your business needs, identify key areas for improvement, and suggest tailored solutions to boost your performance. We also provide ongoing support to ensure everything runs smoothly long after the project is completed.</p>
+                <ul>
+                    <li>Web Development Consultation</li>
+                    <li>Automation Strategy & Planning</li>
+                    <li>24/7 Support & Maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<section id="services" class="container">
-    <h2>Our Services</h2>
-    <ul>
-        <li><strong>Website Development:</strong> Business websites, E-commerce, Landing pages</li>
-        <li><strong>Business Automation:</strong> Email Automation, CRM Setup, Sales Funnel Automation</li>
-    </ul>
-</section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you're ready to take your business to the next level with a custom website or automation solutions, we'd love to hear from you. Get in touch with us today to start a conversation or get a free consultation. We're here to help you succeed!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
 
-<section id="portfolio" class="container">
-    <h2>Portfolio</h2>
-    <p>Exciting Projects Launching Soon!</p>
-</section>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
 
-<section id="contact" class="container">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:contact@autowebtech.in">contact@autowebtech.in</a></p>
-    <p>Phone: +91-9505149130</p>
-</section>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-<footer>
-    <div class="container">
-        <p>© 2025 AutoWebTech. All rights reserved.</p>
-    </div>
-</footer>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> contact@autowebtech.in</p>
+                <p><strong>Phone:</strong> +91 9505149130</p>
+                <p><strong>Office Hours:</strong> Mon - Fri, 9:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AutoWebTech. All rights reserved.</p>
+            <p>Designed with &hearts; by AutoWebTech</p>
+        </div>
+    </footer>
 
 </body>
 </html>
